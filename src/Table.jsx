@@ -40,6 +40,7 @@ function Table({ records }) {
         <div className="directionButtons">
           <button
             style={{
+              cursor: "pointer",
               color: "white",
               padding: "10px 15px",
               backgroundColor: "#43967B",
@@ -55,6 +56,7 @@ function Table({ records }) {
 
           <button
             style={{
+              cursor: "pointer",
               color: "white",
               height: "37px",
               width: "37px",
@@ -79,7 +81,7 @@ function Table({ records }) {
             }}
             onClick={rightSideHandler}
           >
-            Previous
+            Next
           </button>
         </div>
       </div>
