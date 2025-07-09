@@ -10,7 +10,7 @@ function App() {
     )
       .then((rawData) => rawData.json())
       .then((allRecords) => setRecords(allRecords))
-      .catch((e) => console.log("failed to fetch data"));
+      .catch((e) => alert("failed to fetch data"));
   }, []);
 
   return (
